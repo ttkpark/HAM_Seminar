@@ -72,9 +72,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gerber")
 		)
 	)
 	(net 0 "")
@@ -5632,8 +5632,8 @@
 		)
 	)
 	(gr_rect
-		(start 68 65)
-		(end 172 137)
+		(start 70.54 65)
+		(end 170.476 134.46)
 		(stroke
 			(width 0.05)
 			(type default)

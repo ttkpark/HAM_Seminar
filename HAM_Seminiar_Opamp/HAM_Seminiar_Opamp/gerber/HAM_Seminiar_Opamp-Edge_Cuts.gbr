@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.4*%
+%TF.CreationDate,2025-10-16T13:31:45+09:00*%
+%TF.ProjectId,HAM_Seminiar_Opamp,48414d5f-5365-46d6-996e-6961725f4f70,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.4) date 2025-10-16 13:31:45*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X70540000Y-65000000D02*
+X170476000Y-65000000D01*
+X170476000Y-134460000D01*
+X70540000Y-134460000D01*
+X70540000Y-65000000D01*
+M02*
