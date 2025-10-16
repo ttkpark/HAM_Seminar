@@ -1,0 +1,31 @@
+(kicad_sch
+	(version 20230121)
+	(generator "eeschema")
+	(uuid "7b2739d8-9b30-4e41-8527-a1823fcf2f65")
+	(paper "A4")
+	
+	(text "NE555 발진 회로 - 1kHz\nf = 1.44/((R1 + 2×R2) × C) = 1000Hz\nR1 = 5kΩ, R2 = 4.7kΩ, C = 100nF\nVCC = 5V (터미널 입력)\n계산: 1.44/((5k + 2×4.7k) × 100n) = 1.44/14.4k×100n = 1000Hz"
+		(exclude_from_sim no)
+		(at 30 30 0)
+		(effects (font (size 1.5 1.5)))
+		(uuid "design_info")
+	)
+
+	(text "부품 목록:\n• U1: NE555P 타이머 IC\n• R1: 5kΩ 저항\n• R2: 4.7kΩ 저항\n• C1: 100nF 세라믹 커패시터\n• J1: 전원 입력 터미널 (VCC 5V, GND)\n• J2: 신호 출력 터미널 (1kHz 출력, GND)"
+		(exclude_from_sim no)
+		(at 30 70 0)
+		(effects (font (size 1.2 1.2)))
+		(uuid "parts_list")
+	)
+
+	(text "연결 방법:\n1. J1에 5V 전원 공급\n2. J2에서 1kHz 방형파 출력\n3. 듀티 사이클: 약 67%\n4. 출력 전압: 약 0V~5V"
+		(exclude_from_sim no)
+		(at 30 100 0)
+		(effects (font (size 1.2 1.2)))
+		(uuid "connection_info")
+	)
+
+	(sheet_instances
+		(path "/" (page "1"))
+	)
+)

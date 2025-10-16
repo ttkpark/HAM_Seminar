@@ -464,7 +464,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "HAM_Seminar.kicad_pro",
+    "filename": "HAM_Seminiar_Charger.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -500,7 +500,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -576,6 +576,12 @@
         },
         {
           "group_by": false,
+          "label": "Sim.Pin",
+          "name": "Sim.Pin",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "설명",
           "name": "Description",
           "show": false
@@ -591,7 +597,7 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
+      "sort_asc": false,
       "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
@@ -622,6 +628,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -636,7 +650,7 @@
   },
   "sheets": [
     [
-      "7b2739d8-9b30-4e41-8527-a1823fcf2f65",
+      "830b7ae3-1852-41cd-b5ec-93e63f031b81",
       "Root"
     ]
   ],

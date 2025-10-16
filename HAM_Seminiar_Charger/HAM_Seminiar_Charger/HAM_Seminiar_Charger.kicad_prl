@@ -1,12 +1,10 @@
 {
   "board": {
-    "active_layer": 35,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [
-      "GND"
-    ],
+    "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -19,14 +17,14 @@
     },
     "selection_filter": {
       "dimensions": false,
-      "footprints": false,
+      "footprints": true,
       "graphics": false,
       "keepouts": false,
       "lockedItems": false,
       "otherItems": false,
       "pads": false,
       "text": false,
-      "tracks": true,
+      "tracks": false,
       "vias": false,
       "zones": false
     },
@@ -52,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff5_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffd5f5_57ffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -61,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "HAM_Seminar.kicad_prl",
+    "filename": "HAM_Seminiar_Charger.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
