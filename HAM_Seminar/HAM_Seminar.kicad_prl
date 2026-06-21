@@ -1,12 +1,10 @@
 {
   "board": {
-    "active_layer": 35,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [
-      "GND"
-    ],
+    "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -25,7 +23,7 @@
       "lockedItems": false,
       "otherItems": false,
       "pads": false,
-      "text": false,
+      "text": true,
       "tracks": true,
       "vias": false,
       "zones": false
@@ -34,6 +32,7 @@
       "vias",
       "footprint_text",
       "footprint_anchors",
+      "ratsnest",
       "grid",
       "footprints_front",
       "footprints_back",
